@@ -42,7 +42,7 @@ bool login(char *username, char *password)
 
 // Display profile module
 void display_student_profile(char *username)
-{
+{   
 }
 
 // Course enrollment module
@@ -79,6 +79,12 @@ void main()
 
     // Display student profile
     display_student_profile(username);
+    
+    
+    
+    
+    
+    
 
     // Enroll the student
     course_enrollment(username);
